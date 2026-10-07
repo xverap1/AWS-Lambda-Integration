@@ -23,7 +23,7 @@ Este proyecto implementa una arquitectura Serverless orientada a eventos en AWS 
 El proyecto está configurado para utilizar el perfil de AWS SSO llamado `agupao`. Asegúrate de tener iniciada tu sesión antes de ejecutar Terraform:
 
 ```bash
-aws sso login --profile agupao
+aws sso login --profile xiomaraupao
 ```
 
 *(Si necesitas cambiar el perfil, actualiza el bloque `provider "aws"` en los archivos `main.tf` de cada entorno).*
